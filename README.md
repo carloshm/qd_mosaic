@@ -67,7 +67,7 @@ python3 mix_thumbs.py -n 200 -o thumbs/some_symbols.txt angel bathtub moustache 
 ```
 the make_thumbs_all.sh script includes the step 3 and creates an all.txt file
 
-4) **Builds the mosaic with the selected symbols**, parameters for the mosaic and the image copied in the *targets folder*. A file with <symbols filename>_<target_image_name>_mosaick.json will be created in the *jdata folder*
+4) **Builds the mosaic with the selected symbols**, parameters for the mosaic and the image copied in the *targets folder*. A file with <symbols_filename>_<target_image_name>_mosaick.json will be created in the *jdata folder*
 ```
 python3 build_mosaic.py thumbs/some_symbols.txt targets/grace_2.png -novars -max 800 -v
 ```
